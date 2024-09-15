@@ -1,13 +1,18 @@
 <main class="main">
     <mat-toolbar class="fill-space" color="primary">
-        <div>
-            <mat-menu class="button-options">
-            </mat-menu>
-        </div>
+        <button mat-button [matMenuTriggerFor]="menu" class="button-options">Seleccion de capitulo</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>Capitulo 1</button>
+            <button mat-menu-item>Capitulo 2</button>
+            <button mat-menu-item>Capitulo 3</button>
+            <button mat-menu-item>Capitulo 4</button>
+            <button mat-menu-item>Capitulo 5</button>
+            <button mat-menu-item>Capitulo 6</button>
+        </mat-menu>
         <div class="title">
             <span >Purple - Titulo temporal</span>
         </div>
-        
+    
     </mat-toolbar>
 <router-outlet></router-outlet>
 </main>
