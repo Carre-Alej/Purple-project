@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "ultimate": "ng build --base-href='https://carre-alej.github.io/Purple-project/'",
     "test": "ng test",
-    "serve:ssr:myOwnSpace": "node dist/my-own-space/server/server.mjs"
+    "serve:ssr:myOwnSpace": "node docs/dist/my-own-space/server/server.mjs"
   },
   "private": true,
   "dependencies": {
