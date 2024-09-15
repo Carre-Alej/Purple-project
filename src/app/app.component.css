@@ -3,9 +3,11 @@
 }
 .button-options {
     display: flex;
+    
     flex: auto;
 }
 .title {
     display: flex;
+    margin-left: 20px;
     flex: auto;
 }
